@@ -1,0 +1,29 @@
+TVproXz — sitio web premium
+===========================
+
+CONTENIDO
+- index.html: portada principal con diseño premium adaptable a móvil.
+- privacidad.html: borrador de aviso de privacidad.
+- terminos.html: borrador de términos y condiciones.
+- soporte.html: página de contacto y ayuda.
+- styles.css: diseño visual compartido.
+- site.js: menú móvil y año automático.
+
+IMPORTANTE
+Esta carpeta es un sitio web estático completo. No es una app Android, no modifica App.js, Supabase ni Stripe y no contiene claves secretas ni un enlace de pago activo.
+
+ANTES DE USARLO COMO SITIO OFICIAL
+1. Revisa los textos de privacidad y términos con detalle. Están marcados como borradores porque deben coincidir exactamente con la operación real y los requisitos legales aplicables.
+2. Verifica que el correo de soporte joseambriz735@gmail.com sea el que quieras hacer público. Si no, sustituye esa dirección en los HTML por el correo de soporte elegido.
+3. Confirma que tienes los derechos o las autorizaciones necesarias para distribuir cualquier contenido que ofrezcas.
+4. No anuncies pagos reales hasta que Stripe esté en modo activo, el precio de producción esté configurado y el webhook de producción haya sido verificado de extremo a extremo.
+
+CÓMO PUBLICAR DESDE EL TELÉFONO (Netlify Drop)
+1. Descarga TVproXz-Web-Premium.zip y guárdalo en Descargas.
+2. Abre https://app.netlify.com/drop en Chrome.
+3. Usa la opción para elegir/subir un archivo y selecciona el ZIP descargado. Si la página exige iniciar sesión, sigue los pasos de Netlify.
+4. Espera el despliegue. Netlify debería mostrar una URL pública que termina en netlify.app.
+5. Abre esa URL en una pestaña de incógnito para verificar que todo carga sin iniciar sesión.
+6. Guarda la URL que te da Netlify. No es todavía una página dentro de Google Sites ni está conectada al pago de Stripe.
+
+No cargues archivos content://downloads/... en un campo de URL. Esa es una dirección interna del teléfono, no la dirección pública del sitio.
